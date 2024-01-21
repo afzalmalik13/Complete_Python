@@ -1,0 +1,6 @@
+tup = ('nobita', 'gian', 'dekisuki')
+print(tup)
+lst = list(tup)
+lst.append('doraemon')
+tup = tuple(lst)
+print(tup)
